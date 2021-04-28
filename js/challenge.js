@@ -35,11 +35,7 @@ if(handle){
   pause.addEventListener("click", function(){
   clearInterval(handle)
 })
-} else {
-  setInterval(function(){
-    counterValue.innerText = numberValue += 1;
-}, 1000);
-}
+} 
 
 
 submitForm.addEventListener("submit", function(e){
