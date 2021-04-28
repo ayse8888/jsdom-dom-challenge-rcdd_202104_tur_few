@@ -8,6 +8,7 @@ const likes = document.querySelector(".likes")
 const submitForm = document.getElementById("comment-form")
 const submitBtn = document.getElementById("submit")
 const comment = document.getElementById("list")
+const pause = document.getElementById("pause")
 
 setInterval(function(){
     counterValue.innerText = numberValue += 1;
