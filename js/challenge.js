@@ -31,9 +31,12 @@ heart.addEventListener("click", function(){
   likes.appendChild(li)
 })
 
-pause.addEventListener("click", function(){
+if(!handle){
+  pause.addEventListener("click", function(){
   clearInterval(handle)
 })
+}
+
 
 submitForm.addEventListener("submit", function(e){
   e.preventDefault();
