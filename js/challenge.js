@@ -10,7 +10,7 @@ const submitBtn = document.getElementById("submit")
 const comment = document.getElementById("list")
 const pause = document.getElementById("pause")
 
-setInterval(function(){
+const handle = setInterval(function(){
     counterValue.innerText = numberValue += 1;
 }, 1000);
 
@@ -29,6 +29,10 @@ heart.addEventListener("click", function(){
   const li = document.createElement("li")
   li.innerHTML = `${numberValue} has been liked 1 time`
   likes.appendChild(li)
+})
+
+pause.addEventListener("click", function(){
+  handle.clea
 })
 
 submitForm.addEventListener("submit", function(e){
