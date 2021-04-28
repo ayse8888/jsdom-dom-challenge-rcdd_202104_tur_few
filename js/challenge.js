@@ -32,7 +32,7 @@ heart.addEventListener("click", function(){
 })
 
 pause.addEventListener("click", function(){
-  handle.clea
+  clearInterval(handle)
 })
 
 submitForm.addEventListener("submit", function(e){
