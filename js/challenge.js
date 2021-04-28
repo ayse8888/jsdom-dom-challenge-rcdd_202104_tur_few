@@ -36,7 +36,9 @@ if(handle){
   clearInterval(handle)
 })
 } else {
-  handle
+  setInterval(function(){
+    counterValue.innerText = numberValue += 1;
+}, 1000);
 }
 
 
