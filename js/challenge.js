@@ -29,4 +29,9 @@ heart.addEventListener("click", function(){
   likes.appendChild(li)
 })
 
+submitForm.addEventListener("submit", function(e){
+  e.preventDefault();
+  
+})
+
 
