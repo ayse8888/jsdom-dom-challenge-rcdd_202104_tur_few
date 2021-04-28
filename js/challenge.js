@@ -34,7 +34,7 @@ submitForm.addEventListener("submit", function(e){
   e.preventDefault();
   const commentInput = document.getElementById("comment-input").value;
   console.log(commentInput)
-  
+  comment.innerText = commentInput
 })
 
 
