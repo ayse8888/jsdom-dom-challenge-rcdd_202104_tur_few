@@ -7,6 +7,7 @@ const heart = document.getElementById("heart")
 const likes = document.querySelector(".likes")
 const submitForm = document.getElementById("comment-form")
 const submitBtn = document.getElementById("submit")
+const comment = document.getElementById("list")
 
 setInterval(function(){
     counterValue.innerText = numberValue += 1;
@@ -31,6 +32,7 @@ heart.addEventListener("click", function(){
 
 submitForm.addEventListener("submit", function(e){
   e.preventDefault();
+  
   
 })
 
