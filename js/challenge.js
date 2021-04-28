@@ -5,7 +5,8 @@ const plus = document.getElementById("plus")
 const minus = document.getElementById("minus")
 const heart = document.getElementById("heart")
 const likes = document.querySelector(".likes")
-const submitForm = document.getElementById("submit")
+const submitForm = document.getElementById("comment-form")
+const submitBtn = document.getElementById("comment-form")
 
 setInterval(function(){
     counterValue.innerText = numberValue += 1;
