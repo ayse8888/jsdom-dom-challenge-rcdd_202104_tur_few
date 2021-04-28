@@ -35,6 +35,8 @@ if(handle){
   pause.addEventListener("click", function(){
   clearInterval(handle)
 })
+} else {
+  handle
 }
 
 
