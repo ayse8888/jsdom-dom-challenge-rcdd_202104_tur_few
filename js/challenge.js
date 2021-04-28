@@ -31,7 +31,7 @@ heart.addEventListener("click", function(){
   likes.appendChild(li)
 })
 
-if(!handle){
+if(handle){
   pause.addEventListener("click", function(){
   clearInterval(handle)
 })
